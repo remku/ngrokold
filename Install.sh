@@ -1,3 +1,9 @@
+echo "Press 1 for Phone or 2 for PC: "
+read -r device
+if [ $device == "2" ]; then
+unzip ngrok.zip
+rm -rf ngrok.zip
+fi
 chmod +x ngrok 
 cp -R ngrok ~/
 cd ~
@@ -16,3 +22,4 @@ read -r port
 else
 exit 1
 fi
+
