@@ -8,7 +8,7 @@ chmod +x ngrok
 cp -R ngrok ~/
 cd ~
 rm -rf ngrokold
-echo " Enter your ngrok token: "
+echo " Enter your command to add token: "
 read -r token
 $token
 echo
